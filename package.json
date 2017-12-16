@@ -1,0 +1,31 @@
+{
+  "name": "hyper-cryptoticker",
+  "version": "0.0.1",
+  "description": "Crypto Stats for Hyper",
+  "main": "index.js",
+  "license": "MIT",
+  "repository": "auronmatrix/hyper-cryptoticker",
+  "scripts": {
+    "load": "cp -R . ~/.hyper_plugins/local/hyper-cryptoticker/ && rm -rf ~/.hyper_plugins/local/hyper-cryptoticker/.git"
+  },
+  "author": {
+    "name": "a21n"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "hyper",
+    "bitcoin",
+    "ethereum",
+    "ticker",
+    "cryptocurrency",
+    "hyperterm",
+    "hyper-cryptoticker"
+  ],
+  "os": [
+    "!win32"
+  ],
+  "dependencies": {
+  }
+}
